@@ -1,66 +1,13 @@
 <?xml version="1.0"?>
-<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2022-04-17T08:32:00" id="0" hostname="workspacesd85pwy0h0wklb0q.ws-86b8f45444-ldn6w" tests="5" errors="1" failures="5" time="0.144">
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2022-04-17T08:46:57" id="0" hostname="workspacesd85pwy0h0wklb0q.ws-86b8f45444-ldn6w" tests="5" errors="0" failures="0" time="0.177">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
   </properties>
-  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value upto 1 decimal values" time="0.105" classname=".TemperatureConverter">
-    <failure type="">Error: Expected 0 to equal 89.6.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:66:43
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-  </testcase>
-  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value" time="0.011" classname=".TemperatureConverter">
-    <failure type="">Error: Expected 0 to equal 500.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:72:40
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-  </testcase>
-  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value" time="0.008" classname=".TemperatureConverter">
-    <failure type="">Error: Expected 0 to equal 932.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:60:43
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-  </testcase>
-  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value upto 1 decimal values" time="0.009" classname=".TemperatureConverter">
-    <failure type="">Error: Expected 0 to equal 37.8.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:78:40
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-  </testcase>
-  <testcase name="TemperatureConverter Perform series of actions" time="0.011" classname=".TemperatureConverter">
-    <failure type="">Error: Expected 0 to equal -12.2.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:84:40
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-    <failure type="">Error: Expected 10 to equal 50.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:88:43
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-    <failure type="">Error: Expected 10 to equal 93.3.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:92:40
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-    <failure type="">Error: Expected 200 to equal 478.4.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:96:43
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-  </testcase>
+  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value upto 1 decimal values" time="0.125" classname=".TemperatureConverter"/>
+  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value upto 1 decimal values" time="0.014" classname=".TemperatureConverter"/>
+  <testcase name="TemperatureConverter Perform series of actions" time="0.014" classname=".TemperatureConverter"/>
+  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value" time="0.012" classname=".TemperatureConverter"/>
+  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value" time="0.012" classname=".TemperatureConverter"/>
   <system-out>
     <![CDATA[
 ]]>
